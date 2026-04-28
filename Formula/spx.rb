@@ -1,16 +1,16 @@
 class Spx < Formula
   desc "CLI for scaffolding and deploying FastAPI apps to ephemeral previews"
   homepage "https://github.com/ab-10/spx"
-  version "0.1.2"
+  version "0.1.3"
 
   on_macos do
     on_arm do
-      url "https://github.com/ab-10/spx/releases/download/v0.1.2/spx-0.1.2-aarch64-apple-darwin.tar.gz"
-      sha256 "b1c961464ba76196e7194d0526b454f590c1f3e3b48e340cf0579adc42e15f38"
+      url "https://github.com/ab-10/spx/releases/download/v0.1.3/spx-0.1.3-aarch64-apple-darwin.tar.gz"
+      sha256 "4c66b8714ebe3617fea3d3cb6b75c88bd9eb281e746ea67d1cca93f389e5cb91"
     end
     on_intel do
-      url "https://github.com/ab-10/spx/releases/download/v0.1.2/spx-0.1.2-x86_64-apple-darwin.tar.gz"
-      sha256 "99ed47af3596946f32a048d225610ce0d7e8046e6d88759a204b6a9f1a9d4d91"
+      url "https://github.com/ab-10/spx/releases/download/v0.1.3/spx-0.1.3-x86_64-apple-darwin.tar.gz"
+      sha256 "8d7c7524149a3eb920520cd20a7d7d311f47abe999c2ee5ec7423326d4c96e27"
     end
   end
 
