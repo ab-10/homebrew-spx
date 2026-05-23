@@ -1,23 +1,23 @@
 class Spx < Formula
   desc "CLI for scaffolding and deploying FastAPI backends to SPX"
   homepage "https://github.com/ab-10/spx"
-  version "0.1.10"
+  version "0.1.11"
 
   on_macos do
     on_arm do
-      url "https://github.com/ab-10/spx/releases/download/v0.1.10/spx-0.1.10-aarch64-apple-darwin.tar.gz"
-      sha256 "e6679c23662343d49ced60a975c8482a15931d9714d3e9035aa50c4d1c421517"
+      url "https://github.com/ab-10/spx/releases/download/v0.1.11/spx-0.1.11-aarch64-apple-darwin.tar.gz"
+      sha256 "f35c53c8c3ed9e6a13ea3bf1b55e06790562f07088a5629452189edffcc2d630"
     end
     on_intel do
-      url "https://github.com/ab-10/spx/releases/download/v0.1.10/spx-0.1.10-x86_64-apple-darwin.tar.gz"
-      sha256 "a04922037fb547b5ff9ce59fc08f7431ae93b370683893180b19c7489236ec18"
+      url "https://github.com/ab-10/spx/releases/download/v0.1.11/spx-0.1.11-x86_64-apple-darwin.tar.gz"
+      sha256 "d9df72a53895f11349139613dadc45eff82fe2796f009c45e77a8d513b5c46e8"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/ab-10/spx/releases/download/v0.1.10/spx-0.1.10-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "9a5798f041f240c61989097a9343e098992455c7f4e52abbbd2bb57a6974552f"
+      url "https://github.com/ab-10/spx/releases/download/v0.1.11/spx-0.1.11-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "7558de6ce73f60f64100129bc03a5e0543f7ca777e9955713d150bcd98787d2d"
     end
   end
 
