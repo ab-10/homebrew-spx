@@ -14,6 +14,13 @@ class Spx < Formula
     end
   end
 
+  on_linux do
+    on_intel do
+      url "https://github.com/ab-10/spx/releases/download/v0.1.10/spx-0.1.10-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "9a5798f041f240c61989097a9343e098992455c7f4e52abbbd2bb57a6974552f"
+    end
+  end
+
   def install
     bin.install "spx"
   end
